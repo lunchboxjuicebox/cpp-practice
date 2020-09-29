@@ -11,8 +11,10 @@ string name = "Cesca";
 
 /**
  * One lonely greeting to myself.
+ * @return returns 0 for success
  */
-void main()
+int main()
 {
     cout << "Hello, my name is " << name << endl;
+    return 0;
 }
